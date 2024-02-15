@@ -7,7 +7,7 @@ az group create \
 az vm create \
   --resource-group netv380-hw5 \
   --name hw5web \
-  --image UbuntuLTS \
+  --image Ubuntu2204 \
   --size Standard_B1s \
   --admin-username azureuser \
   --generate-ssh-keys
